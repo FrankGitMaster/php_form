@@ -8,7 +8,7 @@
         <title>Php form</title>
     </head>
     <body>
-        <form action="" method="" class="php_form">
+        <form action="validar.php" method="post" class="php_form" name="php_form" id="php_form">
             <h2 class="form_title">Inicio de sesión</h2>
             <div class="form_group">
                 <label class="form_label" for="name">Nombre</label>
@@ -19,7 +19,7 @@
                 <input class="form_input" type="number" name="age" id="age" placeholder="Ingrese su edad">
             </div>
             <div class="form_group">
-                <input class="form_submit" type="submit" value="Entrar">
+                <input class="form_submit" type="submit" value="Entrar" name="send" id="send">
             </div>
         </form>
     </body>
