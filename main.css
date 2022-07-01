@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+}
+.php_form{
+    margin: auto;
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: .2em;
+    padding: 1em 0;
+}
+.form_title{
+    text-align: center;
+}
+.form_group{
+    width: 90%;
+    margin: .5em 0;
+}
+.form_label{
+    color: gray;
+}
+.form_input{
+    width: 100%;
+    padding: 1em .5em;
+    margin-top: 1em;
+}
+.form_submit{
+    background-color: #444cf7; 
+    color: #fff;
+    padding: 1em .5em;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
