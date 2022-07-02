@@ -5,11 +5,11 @@ if(isset($_POST["send"])){
     $usuario = $_POST["name"];
     $edad = $_POST["age"];
     
-    if($usuario == "Frank"){
+    if($usuario == "Frank" && $edad >= 18){
         echo "Bienvenido $usuario";
     }
     else{
-        echo "No puedes ingresar nene";
+        echo "No puedes ingresar";
     }
 }
 
